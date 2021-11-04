@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"target": "es6",
+		"module": "commonjs",
+		"outDir": "./dist",
+		"rootDir": "./src",
+		"strict": true,
+		"strictPropertyInitialization": false,
+		"allowJs": true,
+		"baseUrl": "./src",
+		"esModuleInterop": true,
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+		"useUnknownInCatchVariables": false
+	},
+	"include": [
+		"src"
+	]
+}
