@@ -29,6 +29,7 @@ class CreateMessageService {
 		});
 
 		const messageIO = {
+			id: messageCreated.id,
 			message: messageCreated.message,
 			created_at: messageCreated.created_at,
 			user: {
